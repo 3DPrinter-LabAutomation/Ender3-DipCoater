@@ -1,0 +1,17 @@
+#Manual Adjustment
+Beakeradjustment = N
+Beakeradjustment = (1, 1, 1; 2, 2, 2; 3, 3, 3; 4, 4, 4; 5, 5, 5; 6, 6, 6)
+
+Garageadjustment = N
+Garageadjustment = (1, 1, 1; 2, 2, 2; 3, 3, 3; 4, 4, 4; 5, 5, 5; 6, 6, 6)
+
+#Initialization Parameter
+BeakerHeight = 70
+LiquidHeight = 40
+SampleHeight = 35
+BedTemperature = 20
+
+#Dipping Procedure
+Sample	Beaker	Dip Depth [mm]	Speed Down [mm/min]	Accel Down [mm/s^2] 	Waitdown [s]	Trigger	Speed Up [mm/min]	Accel up [mm/s^2]	Wait after [s]	Drying Gap [mm]
+0	1	30	300	40	30	0	300	1500	60	10
+1	1	30	300	40	30	0	600	1500	60	10
